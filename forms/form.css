@@ -1,0 +1,44 @@
+.submit-button{
+   background-color: rgb(135, 146, 224); 
+   color: black;
+       border-style: double;
+       font-family: Arial, Helvetica, sans-serif ;
+       cursor: pointer;
+       transition: background-color 0.15s,color 0.15s;
+       vertical-align: top;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       padding-left: 10px;
+       padding-right: 10px;
+       vertical-align: middle;
+    
+}
+.submit-button:hover{
+    background-color: rgb(175, 129, 234);
+}
+.submit-button:active{
+    background-color: rgb(235, 233, 238);
+
+}
+.employee{
+    color: rgb(10, 10, 10);
+    font-size: larger;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area{
+    background-color: rgb(212, 212, 247);
+    border-style: solid;
+    border-color: rgb(4, 4, 4);
+   
+}
+.male{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.female{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
