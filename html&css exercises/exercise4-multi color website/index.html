@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css multicolor website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     /* :root{
+        --primary-color:green;
+        --text-color:white;
+        --se-color:rgb(188, 31, 31);
+      }*/
+     :root{
+        --primary-color: rgb(59, 211, 64);
+        --text-color:white;
+        --se-color:rgb(57, 232, 83);
+      }
+      body{
+        background-color: var(--primary-color)
+
+      }
+        nav{
+            background-color:var(--se-color);
+          
+            padding: 12px 0;
+        font-family: "Poppins", sans-serif;
+
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            
+        }
+        ul li a{
+            color:var(--text-color);
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+ <header>
+    <nav><ul>
+        <li><a href="/" >home     </a></li>
+        <li><a href="/">about us </a></li>
+        <li><a href="/">number   </a></li>
+        <li><a href="/">Services </a></li>
+    </ul></nav>
+ </header>
+    
+</body>
+</html>
